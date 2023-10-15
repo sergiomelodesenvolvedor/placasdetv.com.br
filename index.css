@@ -1,0 +1,189 @@
+body{
+    margin:0px
+}
+
+#header{
+    background-color:rgb(211, 211, 211);
+    height:36vh;
+}
+
+#section-topo{
+    height:5vh;
+    background-color:black;
+    border:0px solid black; 
+}
+
+#div-boas-vindas{
+    position:absolute;
+    left:90vw;
+    top:1vh;
+    height:4vh;
+    color:white;
+    border:0px solid black;
+    z-index: 9999;
+    transition: height 0.3s ease;
+    overflow-y: hidden;
+    
+}
+
+#div-boas-vindas:hover{
+    height: 21vh;
+}
+
+#div-menu-fazer-login{
+position:relative;
+top:3vh;
+}
+
+#div-menu-fazer-login a{
+    font-size:1.7vw;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#div-menu-cadastrar-se{
+    position:relative;
+    top:7vh;
+}
+
+#div-menu-cadastrar-se a{
+    font-size:1.7vw;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#imgLogo{
+    position:relative;
+    top:3vh;
+    left:3vw;
+    width:15vw;
+
+}
+
+#input-text-busca{
+    position:relative;
+    left:20vw;
+    top:-5vh;
+    width:27.2vw;
+    height:6.6vh;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 3vw;
+    font-size: 1.3vw;
+
+}
+
+#input-image-lupa{
+    position:absolute;
+    width:2.3vw;
+    top:15.7vh;
+    left:64vw;
+    z-index:9999   
+}
+
+#menu{
+    border:0px solid black;
+    position:relative;
+    top:5vh;
+    background-color:gray;
+    height:8vh
+}
+
+.categoria{
+    position:relative;
+    left:5vw;
+    border:0px solid black;
+    width:17vw;
+    height:7.2vh;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.categoria:hover{
+    height:22.2vh;
+}
+
+#div-total-categorias{
+    position:relative;
+    left:0vw;
+    top:0.8vh;
+    border:0px solid black;
+    width:10vw;
+}
+
+.img-menu-categorias{
+    width:2.5vw;
+}
+
+#div-categorias{
+    position:relative;
+    top:-1vh;
+    display:inline;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:white;
+    font-size:1.5vw;
+    
+}
+
+#div-categorias-placa{
+    position:relative;
+    top:2.2vh;
+    left:2.9vw;
+    border:0px solid black;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:blue;
+    font-size:2.5vw;
+    text-decoration: underline;
+}
+
+#div-categorias-controles{
+    position:relative;
+    top:3.8vh;
+    left:2.9vw;
+    border:0px solid black;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:blue;
+    font-size:2.5vw;
+    text-decoration: underline;
+}
+
+#div-menu-home{
+    position:absolute;
+    border:0px solid black;
+    left:33vw;
+    top:2.5vh;
+    
+}
+
+#div-menu-home a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:white;
+    font-size:1.9vw;
+    text-decoration: none;
+}
+
+#div-menu-fale-conosco{
+    position:absolute;
+    border:0px solid black;
+    left:45vw;
+    top:2.5vh;
+}
+
+#div-menu-fale-conosco a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:white;
+    font-size:1.9vw;
+    text-decoration: none;
+}
+
+#div-menu-sobre-nos{
+    position:absolute;
+    border:0px solid black;
+    left:65vw;
+    top:2.5vh;
+}
+
+#div-menu-sobre-nos a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:white;
+    font-size:1.9vw;
+    text-decoration: none;
+}
